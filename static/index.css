@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+    background-color: rgba(200, 150, 100, 0.1);
+}
+
+#portfolio_container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.my_class{
+    background-color: red;
+}
+/* head parts of the page */
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.head-discription{
+    margin: 15px;
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: lightslategray; */
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-discription ul{
+    display: flex;
+    list-style: none;
+}
+.head-discription ul >li{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head-intraction{
+    position: relative;
+}
+.head-control{
+    position: relative;
+}
+/* main content of the page */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-discription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-control{
+    position: absolute;
+    top: 95%;
+}
